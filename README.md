@@ -2,6 +2,14 @@
 
 A simple full-stack todo application built with React (frontend) and NestJS (backend).
 
+## Screenshots
+
+![Todo App Screenshot 1](./screenshots/Screenshot%202026-01-07%20103013.png)
+
+![Todo App Screenshot 2](./screenshots/Screenshot%202026-01-07%20103128.png)
+
+> **Note**: Screenshots showing the application interface and features.
+
 ## Prerequisites
 
 - **Node.js**: v24.11.1 (or compatible version)
@@ -13,6 +21,7 @@ A simple full-stack todo application built with React (frontend) and NestJS (bac
 godeva/
 ├── backend/          # NestJS backend API
 ├── frontend/         # React frontend application
+├── screenshots/      # Application screenshots
 └── README.md
 ```
 
@@ -77,4 +86,6 @@ godeva/
 2. **Client-Side Search**: Implemented search functionality that queries the backend API with a search parameter. This allows for server-side filtering while keeping the frontend simple without additional state management libraries.
 
 3. **Native Fetch API**: Used native `fetch` API instead of React Query or Axios to keep dependencies minimal and demonstrate core React patterns with hooks (`useState`, `useEffect`).
+
+
 
